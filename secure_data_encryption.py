@@ -57,9 +57,7 @@ elif choice == "Store Data":
                 "hashed_passkey": hashed_passkey,
             }
             st.success("Data stored successfully!")
-            # Display the encrypted data
-            st.write("Here is your encrypted data:")
-            st.code(encrypted_text)
+            
         else:
             st.error("Please enter both data and a passkey.")
 
